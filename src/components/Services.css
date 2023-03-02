@@ -1,0 +1,94 @@
+.Services{
+    /* border: 2px solid blueviolet; */
+    padding: 12px;
+    margin: 0rem 3rem;
+    
+
+}
+
+.topRendered{
+    height: 60vh;
+    /* border: 2px solid blueviolet; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 2rem;
+
+}
+.topRendered :hover{
+    background-color: green;
+    transition: all;
+    transform: scale(0.5);
+    transition: all 0.5s ease-in;
+  
+}
+.Myservices{
+    /* text-align: center; */
+    transition: color 0.5s;
+    
+    width: 32%;
+    /* border: 2px solid red; */
+    border-radius: 12px;
+    margin-bottom: 0.8rem;
+    box-shadow: -1px 4px 19px 0px rgba(0,0,0,0.25);
+-webkit-box-shadow: -1px 4px 19px 0px rgba(0,0,0,0.75);
+/* -moz-box-shadow: -1px 4px 19px 0px rgba(0,0,0,0.75); */
+}
+
+.Myservices img {
+    margin-top: 1rem;
+    
+
+}
+.Myservices :hover{
+    transition: color 0.5s;
+}
+@media screen and (max-width:990px) {
+    .Myservices{
+        height: 100%;
+        width: 100%;
+        flex-direction: column;
+    }
+    .topRendered{
+        height: 100%;
+        width: 100%;
+        flex-direction: column;
+    }
+    
+}
+
+
+
+
+
+
+
+   
+
+
+  
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+    
+    
+    
+
+
+
+
+

@@ -1,0 +1,13 @@
+.Social{
+    padding: 0.9rem;
+    
+}
+.social-icon{
+    color: green;
+    font-size: 1.2rem;
+    border-radius: 50%;
+    cursor: pointer;
+    border: 2px solid green;
+    padding: 2px;
+    margin-left: 3px;
+}

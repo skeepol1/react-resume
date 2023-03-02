@@ -1,0 +1,21 @@
+.about{
+    height: 30vh;
+    background-color: rgb(218, 236, 230);
+    /* border: 2px solid red; */
+}
+.about .aaa{
+    text-align: center;
+    /* margin-top: 2rem; */
+    /* border: 2px solid black; */
+}
+.aaa p{
+    margin-top: 2rem;
+}
+.aaa h1{
+    margin-top: 2rem;
+}
+
+    
+    
+
+

@@ -1,0 +1,52 @@
+.project-container{
+    text-align: center;
+    /* border: 2px solid red; */
+    height: 70vh;
+    display: flex; 
+    justify-content: center; 
+}
+.screenshot{
+    height: 100%;
+    width: 50%;
+    padding: 0rem , 1rem;
+    /* border: 2px solid green; */
+}
+.works{
+    height: 100%;
+    width: 100%;
+    cursor: pointer;
+}
+
+@media screen and (max-width:  990px) {
+    .project-container{
+        height: 100%;
+        width: 100%;
+    }
+    .screenshot{
+        flex-direction: column-reverse;
+        /* width: 100%; */
+        height: 100%;
+        justify-content: center;
+        display: flex;
+        align-items: center;
+    }
+    .works{
+        flex-direction: column;
+        width: 100%;
+        height: 100%;
+    }
+    
+}
+
+
+  
+
+
+
+
+
+
+   
+
+
+
